@@ -71,6 +71,7 @@ const Navbar = ({
               width={32}
               height={32}
             />
+            <span className="text-lg font-bold">{logo.title}</span>
           </div>
           <div className="flex items-center gap-2">
             <Link href={auth.login.url}>{auth.login.title}</Link>
