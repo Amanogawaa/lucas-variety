@@ -1,0 +1,23 @@
+import CTA from "@/components/landing/CTA";
+import Features from "@/components/landing/Features";
+import Hero from "@/components/landing/Hero";
+import HowItWorks from "@/components/landing/HowItWork";
+import Footer from "@/components/navigation/Footer";
+import { Navbar } from "@/components/navigation/Navbar";
+
+export default function Home() {
+  return (
+    <div className="font-sans min-h-screen w-full">
+      <Navbar />
+
+      <main>
+        <Hero />
+        <Features />
+        {/* <ProblemSolution /> */}
+        <HowItWorks />
+        <CTA />
+      </main>
+      <Footer />
+    </div>
+  );
+}
