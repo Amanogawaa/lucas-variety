@@ -55,7 +55,7 @@ export default function AboutPage() {
             <p className="text-lg text-muted-foreground">
               CourseCraft grew out of frustration with endless prep docs, scattered slides, and duplicated effort. It aims to remember every requirement, keep lessons aligned, and let learners focus on doing the work.
             </p>
-            <Button asChild size="lg" className="h-12 px-8 text-base">
+            <Button  size="lg" className="h-12 px-8 text-base">
               <a href="/features">See the feature tour</a>
             </Button>
           </div>

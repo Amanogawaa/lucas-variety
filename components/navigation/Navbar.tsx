@@ -1,24 +1,12 @@
 "use client";
 
-import { Button } from "@/components/ui/button";
 import {
-  NavigationMenu,
   NavigationMenuItem,
   NavigationMenuLink,
-  NavigationMenuList,
 } from "@/components/ui/navigation-menu";
-import {
-  Sheet,
-  SheetContent,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "@/components/ui/sheet";
 
 import { cn } from "@/lib/utils";
-import { Menu } from "lucide-react";
 import Image from "next/image";
-import { NavigationBarUser } from "./NavbarUser";
 import Link from "next/link";
 
 export interface MenuItem {
